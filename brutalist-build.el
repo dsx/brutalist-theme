@@ -83,7 +83,7 @@ function in a let."
    `(font-lock-variable-name-face ((t (:foreground ,fg :underline nil))))
    `(font-lock-warning-face ((t (:inherit error))))
    `(fringe ((t (:background ,bg :foreground ,fg))))
-   `(highlight ((t (:background ,fg-light))))
+   `(highlight ((t (:background ,bg-light))))
    `(lazy-highlight ((t (:background ,bg-highlight-3 :slant italic))))
    `(hl-line ((t (:inherit highlight))))
    `(ido-first-match ((t (:foreground ,fg))))
